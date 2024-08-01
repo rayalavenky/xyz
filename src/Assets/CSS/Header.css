@@ -1,0 +1,884 @@
+.logo {
+  height: 60px;
+  width: auto;
+  margin-right: 130px;
+}
+.section {
+  margin-bottom: 20px;
+}
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.p-menubar {
+  border: none;
+}
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1001;
+}
+.page-content {
+  padding-top: 70px;
+}
+
+.p-menuitem-text {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.home-main-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  
+  img {
+    width: 40%;
+    height: 800px;
+  }
+}
+
+.home-section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+
+  h1{
+    font-size: 60px;
+  }
+
+  .heading {
+    display: block;
+    font-family: "Poppins";
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin: 1.3em 0px;
+    color: inherit !important;
+    line-height: 1.2;
+  }
+
+  .heading2 {
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+    color: #444;
+    text-align: center;
+    line-height: 55px;
+  
+
+    span {
+      font-weight: 600;
+    }
+  }
+}
+
+.home-section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .heading {
+    font-size: 2rem;
+
+    text-align: center;
+    line-height: 40px;
+    h1{
+      font-size: 60px;
+    }
+  }
+
+  .heading2{
+    font-size: 1rem;
+    font-weight: 200;
+    text-align: center;
+  }
+ 
+  
+}
+.btn-custom {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+}
+.btn-custom:hover {
+  background-color: white;
+  color: #007bff; /* Bootstrap primary color */
+  border: 1px solid #007bff; /* Optional: Adds border on hover */
+}
+
+.bg-gray-opacity {
+  background-color: rgba(159, 161, 163, 0.5); /* Gray color with 50% opacity */
+}
+.image{
+  width: 100%;
+  height: auto;
+  padding-top: 90px;
+}
+.drone_operate_image{
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-right: 100px;
+}
+.drone_image{
+  position: absolute;
+  width: 200px;
+  height: auto;
+  left: 300px;
+  /* top: 50px; */
+}
+.text-md-left {
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .text-md-left {
+    text-align: left;
+  }
+}
+/* Drone Screen */
+.bg-gray {
+  background-color: #ccc; /* Adjust to the desired gray color */
+}
+
+.text-white {
+  color: #fff;
+}
+
+.p-5 {
+  padding: 3rem !important;
+}
+
+.mt-3 {
+  margin-top: 1rem !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+.bg-image1,.bg-image2{
+  background-size: cover;
+  background-position: center;
+}
+.bg-image1{
+  background-image: url('https://squadrone.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/12/home_inner_04.jpg');
+}
+.bg-image2{
+  background-image: url('https://squadrone.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/12/home_inner_05.jpg');
+}
+.droneInfo{
+    font-family: "Merriweather";
+    opacity: .8;
+    font-size: .9em;
+    font-style: italic;
+    text-align: right;
+    /* padding-left: 10px; */
+}
+.getButton{
+  color: white;
+  background-color: orangered;
+}
+.getButton:hover{
+  color: orangered;
+  background-color: white;
+  transition: all 300ms ease;
+  -webkit-transition: all 300ms ease;
+}
+.drone_title{
+    width: 100%;
+    padding: 0 1em;
+    font-size: .7rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.drone_title2{
+  width: 100%;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.drone_details{
+  padding-top: 100px;
+  /* padding-left: 90px; */
+  font-size: 25px;
+  font-weight: 300;
+}
+.drone_details1{
+  padding-left: 70px;
+  padding-top: 200px;
+  font-size: 25px;
+  font-weight: 300;
+}
+.drone_desc{
+  font-size: 30px;
+  font-weight: 400;
+}
+
+/* Portfolio */
+.drone_portfolio{
+  background-color: #5f5858;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+
+  h1{
+    color: white;
+  }
+  p{
+    color: white;
+  }
+}
+.drone_benefits{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #a39999;
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  h2, h3, p{
+    color: white;
+  }
+}
+.text-align-center{
+  text-align: center;
+}
+.info_icons1,.info_icons2,.info_icons3{
+  font-size: 4em; /* Increase the size */
+  color: white;   /* Change color to white */
+  padding-left: 240px;
+}
+.info_icons3{
+  padding-right: 240px;
+}
+/* Drone Info */
+.GIS_group{
+  padding-top: 60px;
+}
+.GIS_Data{
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 30px;
+}
+.GIS_image{
+  width: 600px;
+  padding-right: 10px;
+}
+.GIS_subimage{
+  width: 30px;
+}
+
+/* src/DroneData.css */
+.drone-data-section {
+  background: url('https://squadrone.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/12/hero_inner_01.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 150px 0;
+  color: #fff;
+}
+
+.drone-data-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.drone-data-subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 40px;
+}
+
+.drone-data-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.drone-data-item i {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.vertical-line {
+  width: 2px;
+  height: 40px;
+  background-color: #fff;
+  margin: 0 10px;
+}
+
+.drone-data-item-info {
+  text-align: left;
+}
+
+.drone-data-item h4 {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+.drone-data-item p {
+  font-size: 1rem;
+  margin-top: 5px;
+}
+.keyfeature_image{
+  width: 60px;
+  border-radius: 50%;
+}
+
+/* ImageCarousel.css */
+
+.carousel {
+  width: 50%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.carousel-item img {
+  width: 10%;
+  height: auto;
+}
+
+/* Navbar.css */
+.navbar {
+  padding: 1rem 2rem;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+ .nav-link {
+  margin-right: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+}
+
+ .nav-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 4px;
+  background: #007bff;
+  transition: width 0.3s;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  
+}
+.nav-link:hover::after{
+  width: 100%;
+  color: #007bff;
+}
+
+.free-quote-btn {
+  color: #fff;
+  text-transform: uppercase;
+}
+.logo{
+  width: 150px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-toggle {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dropdown-icon {
+  margin-left: 5px;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  border: 1px solid #e9ecef;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.dropdown-menu li {
+  margin: 0;
+}
+
+.dropdown-menu a {
+  padding: 10px 15px;
+  color: #333;
+  display: block;
+  text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+  color: #007bff;
+  background-color: #f8f9fa;
+}
+
+/* Industries */
+.bg_image{
+  position: relative;
+  }
+.bg_name{
+  position: absolute;
+  top: 350px;
+  left: 5%;
+  width: 200px;
+  height: 100px;
+  font-size: 500%;
+  font-weight: 700;
+}
+.constr_data{
+  font-size: 130%;
+  font-weight: 700;
+}
+.constr_head2{
+  font-weight: 700;
+  font-size: 60px;
+}
+.constr_image{
+  width: 50px;
+}
+.constructor,.urban_container{
+  padding-top: 250px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.constructor_image{
+  width: 100%;
+  padding-left: 10%;
+}
+.mining_container,.renewableEnergy_container{
+  margin-top: 150px;
+  padding-top: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 70px;
+  background-color: #ebe9e9;
+}
+.mining_image{
+  width: 85%;
+  padding-left: 20%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+/* Urban planning */
+.urban_data{
+  border: 1px solid black;
+  padding: 7%;
+}
+.urban_image{
+  /* width: 110px; */
+  max-height: 110px;
+  max-width: 110px;
+  /* margin-top: auto; */
+}
+.energy_image{
+  display: inline-block;
+    max-width: 80%;
+    height: auto;
+}
+.renewableEnergy_container{
+  padding: 7%;
+}
+.image_energy{
+  max-height: 110px;
+    max-width: 110px;
+}
+.oilngas_image{
+  width: 90%;
+  padding-bottom: 40px;
+}
+
+/* About Us */
+.About_image{
+  height: 700px;
+}
+
+/* krishi_web */
+.Krishi_bg_image{
+  height: 800px;
+}
+.KrishiDrone_details{
+  padding: 100px 40px 30px 40px;
+}
+.krishi_desc{
+  font-size: 30px;
+  padding: 40px;
+}
+.info_krishi_image{
+  width: 90px;
+}
+.info_image{
+  text-align: center;
+}
+.info_image img{
+  display: inline-block;
+  width: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.product_column{
+  margin-left: 50px;
+}
+.product_row{
+  padding-left: 150px;
+  padding-bottom: 50px;
+}
+
+/* FAQS */
+.faq-container {
+  margin-top: 50px;
+  padding: 20px 200px 20px 200px;
+  background-color: #f8f9fa;
+}
+
+.faq-title {
+  color: #00a779;
+  font-weight: bold;
+  
+  margin-bottom: 30px;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.faq-question h5 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.faq-toggle-btn {
+  font-size: 1.5rem;
+  padding: 0;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.faq-answer {
+  padding: 10px 0;
+  font-size: 1.3rem;
+}
+
+/* RPTO */
+
+.rpto_bg{
+  height: 900px;
+  position: relative;
+}
+.bg_data{
+  position: absolute;
+  top: 300px;
+  left: 500px;
+}
+.rpto_head{
+  font-weight: 700;
+  color: white;
+  font-size: 90px;
+}
+.rpto_desc{
+  font-weight: 600;
+  color: white;
+  font-size: 50px;
+}
+.aboutrpto_image{
+  width: 110px;
+}
+.aboutrptoContainer{
+  padding-top: 70px;
+}
+.aboutRPTO_head{
+  font-size: 60px;
+}
+.aboutRPTO_desc{
+  padding: 20px 150px 20px 150px;
+  font-size: 30px;
+}
+.about_subimages{
+  padding-top: 50px;
+}
+.enroll_container{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f3eded;
+}
+.money{
+  color: red;
+  text-decoration: line-through;
+  font-size: 40px;
+}
+.enroll_head1{
+  font-style: normal !important;
+    /* font-weight: 400; */
+    font-size: 70px;
+    color: #868686;
+}
+.enroll_head2{
+  font-style: normal !important;
+  font-size: 70px;
+}
+.money_row{
+  padding-left: 150px;
+  padding-top: 30px;
+}
+.money_button{
+  font-size: 40px;
+  border-radius: 30px;
+  padding: 4px 30px 4px 30px;
+  background-color: white;
+}
+.enroll_button{
+  text-align: center;
+  background: #00997d;
+  border-radius: 10px;
+  border: 2px solid #00997d;
+  width: 275px;
+  height: 53px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  transition: .3s ease-in-out;
+  margin-top: 50px;
+  margin-left: 800px;
+  /* color: white !important; */
+  /* box-shadow: none !important;*/
+}
+.enroll_button:hover{
+  background-color: white;
+  color: #00997d;
+}
+.enroll_image{
+  width: 60px;
+}
+.enroll_image_data{
+  padding-left: 30px;
+  padding-top: 15px;
+  font-size: 25px;
+}
+.enroll_container2,.enroll_container3{
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+.enroll_container3{
+  /* padding-left: 50px; */
+}
+.enroll_head_data{
+  font-size: 25px;
+}
+.enroll_button2{
+  text-align: center;
+  background: #00997d;
+  border-radius: 10px;
+  border: 2px solid #00997d;
+  width: 275px;
+  height: 53px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  transition: .3s ease-in-out;
+  margin-top: 50px;
+  margin-left: 500px;
+}
+.enroll_button2:hover{
+  background-color: white;
+  color: #00997d;
+}
+.enroll_number{
+  padding-top: 20px;
+  font-size: 60px;
+  color: #007bff;
+
+}
+.inside_enroll_container3{
+  background-color: #f5f2f2;
+  padding: 100px 0px 100px 300px;
+}
+/* RPTO enroll sylabus */
+.display-4 {
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+.button-group .btn.active {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: white;
+}
+.day_button{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+/* about */
+.blue-box {
+  background-color: #002f6c;
+  color: #28a745;
+  padding: 20px 5px 20px 5px;
+  border-radius: 8px;
+}
+
+.number-display {
+  font-size: 4.5rem;
+  display: flex;
+  align-items: baseline;
+}
+
+.unit {
+  font-size: 1rem;
+  margin-left: 5px;
+}
+
+.description {
+  font-size: 2.2rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.about-section {
+  padding: 20px;
+  padding-left: 50px;
+}
+
+.about-section h6 {
+  letter-spacing: 2px;
+}
+
+.about-section h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+}
+.aboutDrone_container{
+  padding-top: 70px;
+}
+.contact_bg{
+  position: relative;
+}
+.contact_head{
+  position: absolute;
+  color: white;
+  top: 300px;
+  left: 350px;
+  font-weight: 700;
+  font-size: 60px;
+}
+.icon{
+  display: inline-block;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+}
+svg{
+  overflow: hidden;
+    vertical-align: middle;
+}
+
+.button_sendMessage,.button_getquote{
+  /* display: -webkit-inline-box; */
+    /* display: -ms-inline-flexbox; */
+    display: inline-flex;
+    -webkit-box-align: center;
+    /* -ms-flex-align: center; */
+    align-items: center;
+    -webkit-box-pack: justify;
+    /* -ms-flex-pack: justify; */
+    justify-content: space-between;
+    color: #414a53;
+    height: 50px;
+    line-height: 46px;
+    min-width: 170px;
+    text-align: left;
+    border: 2px solid #00997d;
+    border-radius: 0 0 20px 0;
+    padding: 0 20px;
+}
+.partner_container{
+  margin-top: 70px;
+}
+.career_container{
+  margin-top: 100px;
+}
+.contactFooter_container{
+  margin-top: 150px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  background-color: #444;
+}
+.container_personalData{
+  margin-top: 40px;
+}
+.bg-blue{
+  background-color: #007bff;
+  color: white;
+}
+.button_getquote{
+  padding-left:250px;
+  font-weight: bold;
+}
+/* .dropdown:hover .dropdown-menu {
+  display: block;
+} */
+.industriesNavbar{
+  text-decoration: none;
+  color: #000;
+}
+.industries_dropdownItem{
+  font-weight: bold;
+}
