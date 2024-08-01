@@ -8,11 +8,11 @@ const DroneInfo = () => {
       <div className="section">
         <div className="home-section2">
           <div className="heading">
-            <h1>Why Krishi 3.0pro?</h1>
+            <h1>Why Krishi 3pro?</h1>
           </div>
           <div className="heading2">
             <p className="fs-5">
-              Krishi 3.0 pro leads globally with a primary focus on providing
+              Krishi 3 pro leads globally with a primary focus on providing
               accessible solutions to a diverse farming community. Our platform
               offers superior performance, durability, and reliability, setting
               new standards in agricultural technology.
