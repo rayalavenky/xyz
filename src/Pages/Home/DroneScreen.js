@@ -54,13 +54,13 @@ const DroneScreen = () => {
             </Col>
             <Col md="6">
               <div className="drone_details">
-                <h2 className="drone_title2">Highly skilled & licensed professionals delivering precise field spraying with agricultural drones.</h2>
-                <p className="drone_desc">
+                <h2 className="drone_title2 fs-1">Highly skilled & licensed professionals delivering precise field spraying with agricultural drones.</h2>
+                <p className="drone_desc pt-5">
                 Plays a crucial role in modern farming by employing drone technology to enhance efficiency, precision, and productivity in crop management, monitoring, and spraying operations.
                 </p>
               </div>
               <div>
-                <Button className="getButton rounded-pill px-5 m-5">
+                <Button className="getButton rounded-pill px-5 m-5 fs-3">
                   Get Started
                 </Button>
               </div>

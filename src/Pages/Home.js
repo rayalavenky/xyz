@@ -80,18 +80,18 @@ const Home = () => {
           <div className="home-section2">
             <div className="heading">
               <h1 className="fw-bold">Explore Our Cutting-Edge Agricultural Drones</h1>
-              <h3 className="text-primary">where innovation meets efficiency in agriculture</h3>
+              <h3 className="text-primary fs-1">where innovation meets efficiency in agriculture</h3>
              
             </div>
             <div className="heading2">
-            <p>We specialize in providing state-of-the-art drones tailored for spraying purposes, revolutionizing the way modern farming</p>
+            <p className="fs-4">We specialize in providing state-of-the-art drones tailored for spraying purposes, revolutionizing the way modern farming</p>
             </div>
           </div>
         </div>
         <div>
           <ImageCarousel />
           <div className="d-flex justify-content-center align-items-center mt-5">
-            <button className="btn btn-custom rounded-pill px-5">
+            <button className="btn btn-custom rounded-pill px-5 fs-2">
               Get Started
             </button>
           </div>

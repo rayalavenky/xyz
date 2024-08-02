@@ -266,6 +266,9 @@ img {
     color: white;
   }
 }
+.portfolio_head{
+  font-size: 60px;
+}
 .text-align-center{
   text-align: center;
 }
@@ -303,7 +306,8 @@ img {
 }
 
 .drone-data-title {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  letter-spacing: 3px;
   font-weight: bold;
 }
 
