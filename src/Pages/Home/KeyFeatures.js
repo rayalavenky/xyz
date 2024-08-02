@@ -14,10 +14,10 @@ const DroneData = () => {
         <Row className="justify-content-center text-center">
           <Col md="8">
             <h1 className="drone-data-title">KEY FEATURES</h1>
-            <p className="drone-data-subtitle">These are the Key Features of drones</p>
+            <p className="drone-data-subtitle fs-3">These are the Key Features of drones</p>
           </Col>
         </Row>
-        <Row className="justify-content-center text-center">
+        <Row className="justify-content-center text-center pt-5">
           <Col xs="6" md="3">
             <div className="drone-data-item">
               <div>

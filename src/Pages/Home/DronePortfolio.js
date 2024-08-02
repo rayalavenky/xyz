@@ -7,9 +7,9 @@ const DronePortfolio = () => {
       <Container fluid>
         <Row>
           <Col md={8} className="drone_portfolio">
-            <h1 className="text-center fs-1 fw-bold">Significant undertaking Projects in our portfolio</h1>
+            <h1 className="text-center portfolio_head fw-bold">Significant undertaking Projects in our portfolio</h1>
             <div className="text-center fw-bold fs-5">
-            <p className="pt-5">VBSY<span className="px-5">NFL-Bihar</span><span  className="px-5">FACT</span><span className="px-5">GNFC</span></p>
+            <p className="pt-5 fs-2">VBSY<span className="px-5">NFL-Bihar</span><span  className="px-5">FACT</span><span className="px-5">GNFC</span></p>
             </div>
             <div className="text-align-center">
               <img
