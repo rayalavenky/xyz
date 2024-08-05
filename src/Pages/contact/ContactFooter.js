@@ -77,7 +77,7 @@ const ContactFooter = () => {
               <Row className="pt-4">
                 <Col>
                   <input type="checkbox" className="px-2" />
-                  <span className="fs-9">
+                  <span className="fs-5 px-2">
                     By clicking submit, I agree to the terms & conditions and
                     privacy policy and I am giving my consent to receive update
                     through SMS/email

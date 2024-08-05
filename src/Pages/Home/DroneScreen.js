@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import image_1 from '../../Assets/Images/GIS_1.png';
 import image_2 from '../../Assets/Images/GIS_2.png';
 import image_3 from '../../Assets/Images/GIS_3.png'
-import pilot from '../../Assets/Images/Pilot pic.png'
+import pilot from '../../Assets/Images/droneOperating.png'
 import drone from '../../Assets/Images/drone2.jpeg';
 
 const DroneScreen = () => {
@@ -50,7 +50,6 @@ const DroneScreen = () => {
                 alt="image"
                 className="drone_operate_image"
               />
-              <img src={drone} alt="image" className="drone_image"/>
             </Col>
             <Col md="6">
               <div className="drone_details">

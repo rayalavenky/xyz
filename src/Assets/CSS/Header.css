@@ -95,7 +95,7 @@ img {
 
   .heading2{
     font-size: 1rem;
-    font-weight: 200;
+    /* font-weight: 200; */
     text-align: center;
   }
  
@@ -117,20 +117,15 @@ img {
 .image{
   width: 100%;
   height: auto;
-  padding-top: 90px;
+  padding-top: 200px;
 }
 .drone_operate_image{
-  position: relative;
-  width: 100%;
-  height: auto;
-  padding-right: 100px;
-}
-.drone_image{
-  position: absolute;
-  width: 200px;
-  height: auto;
-  left: 300px;
-  /* top: 50px; */
+  /* position: relative; */
+  width: 150%;
+  height: 70%;
+  padding-right: 200px;
+  margin-top: 70px;
+  margin-right: 30px;
 }
 .text-md-left {
   text-align: left;
@@ -227,6 +222,7 @@ img {
   /* padding-left: 90px; */
   font-size: 25px;
   font-weight: 300;
+  padding-left: 130px;
 }
 .drone_details1{
   padding-left: 70px;
@@ -370,7 +366,16 @@ img {
 /* Navbar.css */
 .navbar {
   padding: 1rem 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
+
+.nav-link.active, .industriesNavbar.active {
+  color: blue !important;
+}
+
 
 .navbar-brand img {
   margin-right: 10px;
@@ -463,14 +468,16 @@ img {
 /* Industries */
 .bg_image{
   position: relative;
+  width: 100%;
+  height: auto;
   }
 .bg_name{
   position: absolute;
   top: 350px;
-  left: 5%;
-  width: 200px;
-  height: 100px;
-  font-size: 500%;
+  left: 10%;
+  /* width: 350px; */
+  height: auto;
+  font-size: 70px;
   font-weight: 700;
 }
 .constr_data{
@@ -528,7 +535,7 @@ img {
 }
 .image_energy{
   max-height: 110px;
-    max-width: 110px;
+  max-width: 110px;
 }
 .oilngas_image{
   width: 90%;
@@ -539,11 +546,52 @@ img {
 .About_image{
   height: 700px;
 }
+/* .card_title_team{
+  border-top-left-radius: 30px;
+} */
+.aboutTeam_container{
+  padding-top: 100px;
+  margin-bottom: 70px;
+}
+.team-container {
+  padding: 20px;
+}
+
+.team-container h1 {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.nav-tabs {
+  margin-bottom: 20px;
+}
+
+.card {
+  margin: 10px;
+  border: none;
+  text-align: center;
+}
+
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-body {
+  background-color: #0056b3;
+  color: white;
+  /* border-top-right-radius: 30px; */
+}
+.card-body:hover{
+  padding-bottom: 30px ;
+}
+
 
 /* krishi_web */
 .Krishi_bg_image{
-  height: 800px;
+  height: 1000px;
 }
+
 .KrishiDrone_details{
   padding: 100px 40px 30px 40px;
 }
@@ -811,6 +859,11 @@ img {
 }
 .aboutDrone_container{
   padding-top: 70px;
+}
+.career_radio1{
+  /* width: 50px; */
+  font-size: 20px;
+  
 }
 .contact_bg{
   position: relative;
