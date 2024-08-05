@@ -8,10 +8,10 @@ const DroneInfo = () => {
       <div className="section">
         <div className="home-section2">
           <div className="heading">
-            <h1>Why Krishi 3pro?</h1>
+            <h1 className="fw-bold">Why Krishi 3pro?</h1>
           </div>
           <div className="heading2">
-            <p className="fs-4">
+            <p className="fs-3">
               Krishi 3 pro leads globally with a primary focus on providing
               accessible solutions to a diverse farming community. Our platform
               offers superior performance, durability, and reliability, setting
@@ -24,8 +24,8 @@ const DroneInfo = () => {
         <Col md="4">
           <Row>
             <Col md="12">
-              <h6 className="drone_title fs-4">Highest Endurance Time</h6>
-              <p className="droneInfo fs-4">
+              <h6 className="drone_title fs-3">Highest Endurance Time</h6>
+              <p className="droneInfo fs-3">
                 Our drone's endurance time is a remarkable 32 minutes, setting a
                 new standard in the industry. This extended flight capability
                 surpasses that of any competitor, ensuring longer operational
@@ -33,12 +33,10 @@ const DroneInfo = () => {
               </p>
             </Col>
             <Col md="12">
-              <h6 className="drone_title fs-4">Environmental perception sensors</h6>
-              <p className="droneInfo fs-4">
+              <h6 className="drone_title fs-3">Environmental perception sensors</h6>
+              <p className="droneInfo fs-3">
                 Those includes volumetric, terrain characteristics and obstacle
                 sensors.
-              </p>
-              <p className="droneInfo fs-4" >
                 These sensors collectively enable machines to perceive their
                 surroundings accurately and make informed decisions based on
                 real-time environmental data, enhancing both safety and
@@ -57,10 +55,10 @@ const DroneInfo = () => {
         <Col md="4">
           <Row>
             <Col md="12">
-              <h6 className="drone_title fs-4">
+              <h6 className="drone_title fs-3">
                 Enhanced with a live streaming camera
               </h6>
-              <p className="droneInfo fs-4">
+              <p className="droneInfo fs-3">
                 Integrated with a 720p HD live streaming camera, optimizing
                 aerial crop monitoring and real-time data acquisition," enables
                 timely decision-making, optimizing irrigation, fertilization,
@@ -69,10 +67,10 @@ const DroneInfo = () => {
               </p>
             </Col>
             <Col md="12">
-              <h6 className="drone_title fs-4">
+              <h6 className="drone_title fs-3">
                 Utilizing an advanced S-frame structure
               </h6>
-              <p className="droneInfo fs-4">
+              <p className="droneInfo fs-3">
                 In a market dominated by T-frame designs, we implement the
                 S-frame configuration made of aluminium to enhance performance
                 and reliability.

@@ -84,7 +84,7 @@ const Home = () => {
              
             </div>
             <div className="heading2">
-            <p className="fs-4">We specialize in providing state-of-the-art drones tailored for spraying purposes, revolutionizing the way modern farming</p>
+            <p className="fs-3">We specialize in providing state-of-the-art drones tailored for spraying purposes, revolutionizing the way modern farming</p>
             </div>
           </div>
         </div>

@@ -7,6 +7,7 @@ import Krishi from "./Pages/Krishi";
 import RPTO from "./Pages/RPTO";
 import Contact from "./Pages/Contact";
 import Header from "./Pages/Layout/Header";
+import Products from "./Pages/Products";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/industries" element={<Industries />} />
           <Route path="/krishi" element={<Krishi />} />
           <Route path="/rpto" element={<RPTO />} />
+          <Route path="/products" element={<Products />} />
           <Route path="/contactUs" element={<Contact />} />
           <Route path="*" element={<Home />} />
         </Routes>

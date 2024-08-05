@@ -31,18 +31,19 @@ const Career = () => {
               <Row>
                 <Col>
                   <div className="radio">
-                    <label>
+                    <label className="career_radio1">
                       <input
                         type="radio"
                         value="option1"
                         checked={selectedOption === "option1"}
                         onChange={handleOptionChange}
+                        
                       />
                       Drone pilots
                     </label>
                   </div>
                   <div className="radio">
-                    <label>
+                    <label className="career_radio1">
                       <input
                         type="radio"
                         value="option2"
@@ -56,7 +57,7 @@ const Career = () => {
               </Row>
               <Row className="pt-4">
                 <Col>
-                  <input type="text" placeholder="Your Name" className="p-2" />
+                  <input type="text" placeholder="Your Name" className="p-3" />
                 </Col>
               </Row>
               <Row className="pt-4">
@@ -64,7 +65,7 @@ const Career = () => {
                   <input
                     type="email"
                     placeholder="Your Email"
-                    className="p-2"
+                    className="p-3"
                   />
                 </Col>
               </Row>
@@ -73,7 +74,7 @@ const Career = () => {
                   <input
                     type="number"
                     placeholder="Your Phone"
-                    className="p-2"
+                    className="p-3"
                   />
                 </Col>
               </Row>
@@ -82,15 +83,15 @@ const Career = () => {
                   <textarea
                     type="textarea"
                     placeholder="Your text"
-                    className="p-2"
+                    className="p-3"
                   />
                 </Col>
               </Row>
               <Row className="pt-4">
                 <Col>
                   <input type="checkbox" className="p-2" />
-                  <span className="fs-9">
-                    By clicking submit, I agree to the terms & conditions and
+                  <span className="fs-5 px-2">
+                     By clicking submit, I agree to the terms & conditions and
                     privacy policy and I am giving my consent to receive update
                     through SMS/email
                   </span>
